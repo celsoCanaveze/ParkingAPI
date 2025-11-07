@@ -1,0 +1,7 @@
+﻿namespace ParkingApi.Services
+{
+    public interface IAuthService
+    {
+        string GenerateToken(string username);
+    }
+}
