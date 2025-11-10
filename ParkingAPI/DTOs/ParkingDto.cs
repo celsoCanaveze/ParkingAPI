@@ -1,6 +1,6 @@
-﻿using ParkingApi.Models;
+﻿using ParkingAPI.Models;
 
-namespace ParkingApi.DTOs
+namespace ParkingAPI.DTOs
 {
     public class ParkingDto
     {

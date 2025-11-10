@@ -1,8 +1,8 @@
-using ParkingApi.DTOs;
+using ParkingAPI.DTOs;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ParkingApi.Services
+namespace ParkingAPI.Services
 {
 	public interface IReservaService
 	{

@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using ParkingApi.DTOs;
-using ParkingApi.Models;
-using ParkingApi.Repositories;
+using ParkingAPI.DTOs;
+using ParkingAPI.Models;
+using ParkingAPI.Repositories;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ParkingApi.Services
+namespace ParkingAPI.Services
 {
     public class ReservaService : IReservaService
     {

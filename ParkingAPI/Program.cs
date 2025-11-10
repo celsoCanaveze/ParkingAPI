@@ -1,8 +1,13 @@
+﻿using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using ParkingAPI.Services;
 using ParkingAPI.Middleware;
+using ParkingAPI.Repositories; // ✅ IMPORTANTE!
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 
 // Add services
 builder.Services.AddControllers();
@@ -20,8 +25,10 @@ builder.Services.AddApiVersioning(opt =>
     opt.ReportApiVersions = true;
 });
 
-// Custom Services
-builder.Services.AddScoped<ReservaService>();
+// ✅ Services com interfaces
+builder.Services.AddScoped<IReservaService, ReservaService>();
+builder.Services.AddScoped<IReservaRepository, ReservaRepository>();
+
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<MLService>();
 
@@ -40,3 +47,5 @@ app.MapHealthChecks("/health");
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

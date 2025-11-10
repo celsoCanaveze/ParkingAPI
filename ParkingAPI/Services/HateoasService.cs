@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ParkingApi.DTOs;
+using ParkingAPI.DTOs;
 
-namespace ParkingApi.Services
+namespace ParkingAPI.Services
 {
     /// <summary>
     /// Serviço para geração de links HATEOAS

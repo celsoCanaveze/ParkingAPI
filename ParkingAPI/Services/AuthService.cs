@@ -1,11 +1,11 @@
 ﻿using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using ParkingApi.Configurations;
+using ParkingAPI.Configurations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace ParkingApi.Services
+namespace ParkingAPI.Services
 {
     public class AuthService : IAuthService
     {

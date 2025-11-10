@@ -1,8 +1,8 @@
-﻿using ParkingApi.Models;
+﻿using ParkingAPI.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ParkingApi.Repositories
+namespace ParkingAPI.Repositories
 {
     public interface IReservaRepository : ICRUDRepository<Reserva>
     {

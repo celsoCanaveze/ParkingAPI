@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ParkingApi.DTOs
+namespace ParkingAPI.DTOs
 {
     /// <summary>
     /// DTO para transferência de dados de Pátio

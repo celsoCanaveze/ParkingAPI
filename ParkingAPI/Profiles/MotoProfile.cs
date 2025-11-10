@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using ParkingApi.DTOs;
-using ParkingApi.Models;
+using ParkingAPI.DTOs;
+using ParkingAPI.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace ParkingApi.Profiles
+namespace ParkingAPI.Profiles
 {
     public class MotoProfile : Profile
     {

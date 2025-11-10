@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ParkingApi.Data;
+using ParkingAPI.Data;
 using System.Collections.Generic;
 
-namespace ParkingApi.Repositories
+namespace ParkingAPI.Repositories
 {
     public class CRUDRepository<T> : ICRUDRepository<T> where T : class
     {

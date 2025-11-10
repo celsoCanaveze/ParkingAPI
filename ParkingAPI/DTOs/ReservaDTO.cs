@@ -1,4 +1,4 @@
-﻿namespace ParkingApi.DTOs
+﻿namespace ParkingAPI.DTOs
 {
     public class ReservaDto
     {

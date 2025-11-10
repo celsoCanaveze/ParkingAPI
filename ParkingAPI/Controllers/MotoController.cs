@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ParkingApi.DTOs;
-using ParkingApi.Models;
-using ParkingApi.Repositories;
+using ParkingAPI.DTOs;
+using ParkingAPI.Models;
+using ParkingAPI.Repositories;
 
-namespace ParkingApi.Controllers
+namespace ParkingAPI.Controllers
 {
     /// <summary>
     /// Controller responsável pelo gerenciamento de motos

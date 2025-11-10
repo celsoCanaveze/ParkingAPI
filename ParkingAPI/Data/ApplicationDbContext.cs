@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ParkingApi.Models;
+using ParkingAPI.Models;
 using System.Collections.Generic;
 using System.IO;
-using ReservaTest = ParkingApi.Models.Reserva;
+using ReservaTest = ParkingAPI.Models.Reserva;
 
-namespace ParkingApi.Data
+namespace ParkingAPI.Data
 {
     // No arquivo ApplicationDbContext.cs
     public class ApplicationDbContext : DbContext

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using ParkingApi.DTOs;
-using ParkingApi.Models;
+using ParkingAPI.DTOs;
+using ParkingAPI.Models;
 
-namespace ParkingApi.Profiles
+namespace ParkingAPI.Profiles
 {
     public class ReservaProfile : Profile
     {

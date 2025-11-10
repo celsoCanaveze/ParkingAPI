@@ -1,4 +1,4 @@
-﻿namespace ParkingApi.Repositories
+﻿namespace ParkingAPI.Repositories
 {
     public interface ICRUDRepository<T> where T : class
     {

@@ -1,4 +1,4 @@
-﻿namespace ParkingApi.Configurations
+﻿namespace ParkingAPI.Configurations
 {
     public class JwtOptions
     {

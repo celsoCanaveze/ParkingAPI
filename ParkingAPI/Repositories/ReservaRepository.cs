@@ -1,11 +1,11 @@
-using ParkingApi.Data;
-using ParkingApi.Models;
+using ParkingAPI.Data;
+using ParkingAPI.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ParkingApi.Repositories
+namespace ParkingAPI.Repositories
 {
     public class ReservaRepository : CRUDRepository<Reserva>, IReservaRepository
     {

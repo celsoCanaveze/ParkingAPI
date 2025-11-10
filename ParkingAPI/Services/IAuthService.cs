@@ -1,4 +1,4 @@
-﻿namespace ParkingApi.Services
+﻿namespace ParkingAPI.Services
 {
     public interface IAuthService
     {

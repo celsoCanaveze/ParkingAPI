@@ -1,4 +1,4 @@
-﻿namespace ParkingApi.Models
+﻿namespace ParkingAPI.Models
 {
     public class Patio
     {
